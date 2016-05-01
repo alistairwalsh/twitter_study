@@ -6,22 +6,25 @@ This keeps different versions of libraries and Python versions seperate.
 
 This part can be done from the command line
 
-The environment can be created with	
+	conda create -n positive anaconda nltk twython -c https://conda.binstar.org/dimazest
 	
-	conda create -n positive anaconda nltk tweepy -c https://conda.binstar.org/lebpride
-	
-and activated with
+Notice I've added a channel with the -c flag. This is so twython can be installed
 
-	source activate positive
-	
-Or you can use the Anaconda GUI to create the env and activate it.
 
 ###Creating and using .yaml files to share your environment with others
 
-After I installed all the libraries I created a .yaml file from it using
+After I installed all the libraries I created a .yml file from it using
 
 	conda env export > positive.yml
 
 The .yaml file can be shared and used to setup the environment like this
 
 	conda env create -f positive.yml
+	
+but the https://conda.binstar.org/dimazest channel is required for twython so do this before running the .yml file
+
+	conda config --add channels https://conda.binstar.org/dimazest
+
+
+
+	
