@@ -1,0 +1,232 @@
+
+  
+<!DOCTYPE html>
+<html dir="ltr"
+  xmlns:og=&quot;http://ogp.me/ns#&quot; lang="en" class="">
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="twitter:image:height" content="500" />
+<meta name="twitter:image:width" content="500" />
+<meta name="twitter:url" content="https://dev.twitter.com/overview/api/tweets" />
+<link href="https://abs.twimg.com/favicons/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+<meta name="twitter:image" content="https://pbs.twimg.com/profile_images/2284174872/7df3h38zabcvjylnyfe3.png" />
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+<script type="application/json" id="drupal-settings">{"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"gazebo_dev","theme_token":"zjP_rziQtTZ38ucJhwArR8a1O5rgryJTNn8Gec0WVl4"},"analyticsSettings":{"google":{"accounts":["UA-30775-44","UA-30775-16"],"options":{"customVars":{"dimension2":"2"},"customUrl":"","trackerUrl":"https:\/\/g.twimg.com\/googleanalytics\/analytics.js","domains":["dev.twitter.com"],"cross_domains":[],"displayAdvertisingFeatures":true}},"scribe":{"client":"gazebo"},"trackingPixel":{"pixel_ids":[]},"bing":false}}</script><meta name="google-site-verification" content="DsylEvTL7j64tY0IHBWbMN6pUvvKMIRl8usLs1sn2XQ" />
+<meta content="on" name="twitter:widgets:new-embed-design" />
+<meta content="on" name="twitter:widgets:csp" />
+<meta name="og:url" content="https://dev.twitter.com/overview/api/tweets" />
+<meta name="og:image" content="https://pbs.twimg.com/profile_images/2284174872/7df3h38zabcvjylnyfe3.png" />
+<meta name="og:description" content="Tweets are the basic atomic building block of all things Twitter. Users tweet Tweets, also known more generically as “status updates.” Tweets can be embedded, replied to, liked, unliked and deleted." />
+<meta name="og:title" content="Tweets" />
+<meta name="description" content="Tweets are the basic atomic building block of all things Twitter. Users tweet Tweets, also known more generically as “status updates.” Tweets can be embedded, replied to, liked, unliked and deleted." />
+<link rel="shortlink" href="/node/1041" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="Tweets are the basic atomic building block of all things Twitter. Users tweet Tweets, also known more generically as “status updates.” Tweets can be embedded, replied to, liked, unliked and deleted." />
+<meta name="og:site_name" content="Twitter Developers" />
+<link rel="canonical" href="https://dev.twitter.com/overview/api/tweets" />
+<meta name="twitter:title" content="Tweets" />
+<meta name="og:type" content="article" />
+
+    <title>Tweets | Twitter Developers</title>
+    <link type="text/css" rel="stylesheet" href="https://g.twimg.com/css/3f71480/css_26jRHMMCuvdWTE9NpN-pVLYvqWAjjnIFL6rvDsh5MHM.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://g.twimg.com/css/3f71480/css_Y_rYp5Zp2ETqQBWJcbCTJb03omhV0osaOMslZ_927ZE.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://abs.twimg.com/font/gotham-narrow-v3.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://g.twimg.com/css/3f71480/css__rOiZTCBuscnfvEnJw-_pXPK3v3PrChlAC7zARk220c.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://g.twimg.com/css/3f71480/css_ena-Fy7TMjwTiyFeouk2Q_f1tPj98xZSiZElGa8lx8w.css" media="all" />
+
+    <script type="text/javascript" src="https://g.twimg.com/js/3f71480/js_kYMI6stYSsIRxnH5jlyWN3v76pk66IDAcsvBOk1W_qc.js"></script>
+<script type="text/javascript" src="https://g.twimg.com/js/3f71480/js_khfOAWT2z7QE7s9bNkw5afNKRe9w8PMP6gthYSvApG0.js"></script>
+<script type="text/javascript" src="https://g.twimg.com/js/3f71480/js_GwOn7zsvXJwUDS7-VhiFJrVpcBnFBk6AYl2sYoqLJCI.js"></script>
+<script type="text/javascript" src="https://g.twimg.com/js/3f71480/js_aX2iu8pTP4yy32AfhA-H8KZMM5IiCCP8Yx-eZ84lY6Q.js"></script>
+<script type="text/javascript" src="https://g.twimg.com/js/3f71480/js_Ykeg4PlP-G4rQQELDhsAuT35PbEAJ2e4KmhevqSWrJg.js"></script>
+<script type="text/javascript" src="https://g.twimg.com/js/3f71480/js_BsD1J0VYO_7sNrnLQ25AQi_96pz4TWChe8TDkeZN9vs.js"></script>
+<script type="text/javascript" src="https://g.twimg.com/inline-js/adca7e6ab1c7f1559e86028a530b7f8c.js?o79wi4"></script>
+
+  </head>
+
+  <body class="html not-front logged-in one-sidebar sidebar-first page-node page-node- page-node-1041 node-type-documentation i18n-en" >
+    <div id="skip-link">
+      <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+    </div>
+    
+    <div class="Page Page--canopy is-narrow Page--basicStyles  Page--dev  Page--devDocumentation" >
+    <div class="Navigation Navigation--global">
+  <div class="Navigation-inner">
+    <ul class="Navigation-inner-list Navigation-inner-list--breadcrumb"><li class="NavigationItem NavigationItem--main NavigationItem--breadcrumb"><a class="NavigationItem-link" href="https://dev.twitter.com/home"></a></li><li class="NavigationItem NavigationItem--main NavigationItem--breadcrumb NavigationItem--withChildren"><a class="NavigationItem-link" href="https://dev.twitter.com/home">Developers</a><ul class="Navigation Navigation--sub"><li class="NavigationItem NavigationItem--sub"><a class="NavigationItem-link" href="https://dev.twitter.com/overview">Documentation</a></li><li class="NavigationItem NavigationItem--sub"><a class="NavigationItem-link" href="https://dev.twitter.com/discussions">Forums</a></li><li class="NavigationItem NavigationItem--sub"><a class="NavigationItem-link" href="https://dev.twitter.com/overview/events">Events</a></li><li class="NavigationItem NavigationItem--sub"><a class="NavigationItem-link" href="https://dev.twitter.com/blog">Blog</a></li><li class="NavigationItem NavigationItem--sub"><a class="NavigationItem-link" href="https://dev.twitter.com/solutions">Solutions</a></li></ul></li><li class="NavigationItem NavigationItem--main NavigationItem--breadcrumb NavigationItem--withChildren"><a class="NavigationItem-link" href="https://dev.twitter.com/overview">Documentation</a><ul class="Navigation Navigation--sub"><li class="NavigationItem NavigationItem--sub"><a class="NavigationItem-link" href="https://dev.twitter.com/overview/documentation">Overview</a></li><li class="NavigationItem NavigationItem--sub"><a class="NavigationItem-link" href="https://dev.twitter.com/fabric/overview">Fabric</a></li><li class="NavigationItem NavigationItem--sub"><a class="NavigationItem-link" href="https://dev.twitter.com/web/overview">Twitter for Websites</a></li><li class="NavigationItem NavigationItem--sub"><a class="NavigationItem-link" href="https://dev.twitter.com/cards/overview">Cards</a></li><li class="NavigationItem NavigationItem--sub"><a class="NavigationItem-link" href="https://dev.twitter.com/oauth">OAuth</a></li><li class="NavigationItem NavigationItem--sub"><a class="NavigationItem-link" href="https://dev.twitter.com/rest/public">REST APIs</a></li><li class="NavigationItem NavigationItem--sub"><a class="NavigationItem-link" href="https://dev.twitter.com/streaming/overview">Streaming APIs</a></li><li class="NavigationItem NavigationItem--sub"><a class="NavigationItem-link" href="https://dev.twitter.com/ads/overview">Ads APIs</a></li><li class="NavigationItem NavigationItem--sub"><a class="NavigationItem-link" href="https://dev.twitter.com/mopub">MoPub</a></li></ul></li><li class="NavigationItem NavigationItem--main NavigationItem--breadcrumb"><a class="NavigationItem-link" href="https://dev.twitter.com/overview/documentation">Overview</a></li></ul><ul class="Navigation-inner-list Navigation-inner-list--side Navigation-inner-list--user"><li class="NavigationItem NavigationItem--user NavigationItem--withChildren"><a class="NavigationItem-link" href=""><img class="NavigationItem--user-link-image" src="https://pbs.twimg.com/profile_images/541373584254324736/xVKQjH06_normal.jpeg" alt="alistairwalsh" /></a><ul class="Navigation Navigation--sub"><li class="NavigationItem NavigationItem--sub"><a class="NavigationItem-link" href="https://twitter.com/logout">Sign out</a></li><li class="NavigationItem NavigationItem--sub"><a class="NavigationItem-link" href="https://twitter.com">Go to Twitter</a></li></ul></li></ul><ul class="Navigation-inner-list Navigation-inner-list--side Navigation-inner-item--language"><li class="NavigationItem NavigationItem--language NavigationItem--withChildren"><a class="NavigationItem-link" href="">English</a><ul class="Navigation Navigation--sub"><li class="NavigationItem NavigationItem--sub"><a class="NavigationItem-link" href="/overview/api/tweets?lang=zh-hans">简体中文</a></li><li class="NavigationItem NavigationItem--sub"><a class="NavigationItem-link" href="/overview/api/tweets?lang=zh-hant">繁體中文</a></li><li class="NavigationItem NavigationItem--sub"><a class="NavigationItem-link" href="/overview/api/tweets?lang=en">English</a></li><li class="NavigationItem NavigationItem--sub"><a class="NavigationItem-link" href="/overview/api/tweets?lang=fr">Français</a></li><li class="NavigationItem NavigationItem--sub"><a class="NavigationItem-link" href="/overview/api/tweets?lang=de">Deutsch</a></li><li class="NavigationItem NavigationItem--sub"><a class="NavigationItem-link" href="/overview/api/tweets?lang=ja">日本語</a></li><li class="NavigationItem NavigationItem--sub"><a class="NavigationItem-link" href="/overview/api/tweets?lang=ko">한국어</a></li><li class="NavigationItem NavigationItem--sub"><a class="NavigationItem-link" href="/overview/api/tweets?lang=pt">Português, Brasil</a></li><li class="NavigationItem NavigationItem--sub"><a class="NavigationItem-link" href="/overview/api/tweets?lang=es">Español</a></li></ul></li></ul><div class="Navigation-inner-item Navigation-inner-item--search"><form action="/" class="NavigationItem NavigationItem--search" method="get"><input type="text" name="search_block_form" placeholder="Search" class="NavigationItem-searchBox" /><button class="NavigationItem-submitButton">Search</button></form></div>  </div>
+</div>
+<div class=" Hero is-narrow Hero--dev"><div class="Hero-wrap"></div></div><section><div class="Page-messages"></div><div class="PageLayout  is-narrow PageLayout--leftColumn Grid"><div class="PageLayout-wrap"><div class="PageLayout-column PageLayout-leftColumn Grid-cell u-size4of12 u-sm-sizeFill u-md-sizeFill is-collapsible is-collapsed"><div class="PageLayout-column-collapseToggle"></div><aside class="SidebarFirst"><div class="region region-sidebar-first"><div class="SystemBlock" ><div class="menu-block-wrapper menu-block-feature-dev-docs-menu menu-name-main-menu parent-mlid-0 menu-level-2"><ul class="menu"><li class="first collapsed menu-mlid-1132"><a href="/overview/documentation">Documentation</a></li><li class="collapsed menu-mlid-525"><a href="/overview/general">Best Practices</a></li><li class="expanded active-trail menu-mlid-529"><a href="/overview/api" class="active-trail">API Overview</a><ul class="menu"><li class="first leaf menu-mlid-1100"><a href="/overview/api/users">Object: Users</a></li><li class="leaf active-trail active menu-mlid-1099"><a href="/overview/api/tweets" class="active-trail active">Object: Tweets</a></li><li class="leaf menu-mlid-1101"><a href="/overview/api/entities">Object: Entities</a></li><li class="leaf menu-mlid-531"><a href="/overview/api/entities-in-twitter-objects">Object: Entities in Objects</a></li><li class="leaf menu-mlid-1102"><a href="/overview/api/places">Object: Places</a></li><li class="leaf menu-mlid-547"><a href="/overview/api/twitter-ids-json-and-snowflake">Twitter IDs</a></li><li class="leaf menu-mlid-576"><a href="/overview/api/tls">Connecting to Twitter API using TLS</a></li><li class="leaf menu-mlid-591"><a href="/overview/api/cursoring">Using cursors to navigate collections</a></li><li class="leaf menu-mlid-532"><a href="/overview/api/response-codes">Error Codes & Responses</a></li><li class="last leaf menu-mlid-530"><a href="/overview/api/twitter-libraries">Twitter Libraries</a></li></ul></li><li class="leaf menu-mlid-1141"><a href="/overview/status" target="_blank">API Status</a></li><li class="collapsed menu-mlid-2235"><a href="/overview/playbooks" title="Developer Playbooks">Playbooks</a></li><li class="leaf menu-mlid-1370"><a href="/overview/events">Events</a></li><li class="collapsed menu-mlid-1212"><a href="/overview/case-studies">Case Studies</a></li><li class="leaf menu-mlid-1143"><a href="https://apps.twitter.com">Manage My Apps</a></li><li class="last collapsed menu-mlid-592"><a href="/overview/terms">Terms of Use</a></li></ul></div></div></div></aside></div><div class="PageLayout-content Grid-cell u-size8of12 u-sm-sizeFill u-md-sizeFill"><article class="Content" id="main-content"><header><h1>Tweets</h1></header><div class="region region-content"><div class="SystemBlock" ><div id="Node--1041" class="  Node node node-documentation clearfix  Node--documentation "><div class="Node-content"><div class=" Field FieldName-body FieldType-textWithSummary FieldLabel-hidden "><div class="Field-items"><div class="Field-items-item even " ><p>Tweets are the basic atomic building block of all things Twitter. Tweets, also known more generically as &#8220;status updates.&#8221; Tweets can be <a href="/web/embedded-tweets">embedded</a>, <a href="/rest/reference/post/statuses/update">replied to</a>, <a href="/rest/reference/post/favorites/create">liked</a>, <a href="/rest/reference/post/favorites/destroy">unliked</a> and <a href="/rest/reference/post/statuses/destroy/%3Aid">deleted</a>.</p><div><blockquote class="twitter-tweet"><p lang="en" dir="ltr" xml:lang="en">just setting up my twttr</p>— Jack (@jack) <a href="https://twitter.com/jack/status/20">March 21, 2006</a></blockquote></div><p></p><h2>Field Guide</h2><p>Consumers of Tweets should tolerate the addition of new fields and variance in ordering of fields with ease. Not all fields appear in all contexts. It is generally safe to consider a nulled field, an empty set, and the absence of a field as the same thing. Please note that Tweets found in Search results vary somewhat in structure from this document.</p><table class="platform-object"><thead><tr><th>Field</th><th>Type</th><th>Description</th></tr></thead><tbody><tr><th>annotations</th><td>Object</td><td><em>Unused</em>. Future/beta home for status annotations.</td></tr><tr><th>contributors</th><td>Collection of <a href="#obj-contributors">Contributors</a></td><td><em>Nullable</em>. An collection of brief user objects (usually only one) indicating users who contributed to the authorship of the tweet, on behalf of the official tweet author. <a href="http://groups.google.com/group/twitter-development-talk/browse_thread/thread/6a16efa375532182/">Discussion</a>.
+<p>Example:</p><pre linenumbers="off" class="brush: jscript">"contributors":
+[
+    {
+        "id":819797,
+        "id_str":"819797",
+        "screen_name":"episod"
+    }
+]
+</pre></td></tr><tr><th>coordinates</th><td><a href="#obj-coordinates">Coordinates</a></td><td><em>Nullable</em>. Represents the geographic location of this Tweet as reported by the user or client application. The inner coordinates array is formatted as <a href="http://www.geojson.org/">geoJSON</a> (longitude first, then latitude).
+<p>Example:</p><pre linenumbers="off" class="brush: jscript">"coordinates":
+{
+    "coordinates":
+    [
+        -75.14310264,
+        40.05701649
+    ],
+    "type":"Point"
+}
+</pre></td></tr><tr><th>created_at</th><td>String</td><td>UTC time when this Tweet was created.
+<p>Example:</p><pre linenumbers="off" class="brush: jscript">"created_at":"Wed Aug 27 13:08:45 +0000 2008"
+</pre></td></tr><tr><th>current_user_retweet</th><td>Object</td><td><em>Perspectival</em>. Only surfaces on methods supporting the <code>include_my_retweet</code> parameter, when set to true. Details the Tweet ID of the user&#8217;s own retweet (if existent) of this Tweet.
+<p>Example:</p><pre linenumbers="off" class="brush: jscript">"current_user_retweet": {
+  "id": 26815871309,
+  "id_str": "26815871309"
+}
+</pre></td></tr><tr><th>entities</th><td><a href="/overview/api/entities">Entities</a></td><td>Entities which have been parsed out of the text of the Tweet. Additionally see <a href="/overview/api/entities-in-twitter-objects">Entities in Twitter Objects</a>.
+<p>Example:</p><pre linenumbers="off" class="brush: jscript">"entities":
+{
+    "hashtags":[],
+    "urls":[],
+    "user_mentions":[]
+}
+</pre></td></tr><tr><th>favorite_count</th><td>Integer</td><td><em>Nullable</em>. Indicates approximately how many times this Tweet has been &#8220;<a href="/rest/reference/post/favorites/create">liked</a>&#8221; by Twitter users.
+<p>Example:</p><pre linenumbers="off" class="brush: jscript">"favorite_count":1138
+</pre></td></tr><tr><th>favorited</th><td>Boolean</td><td><em>Nullable</em>. <em>Perspectival</em>. Indicates whether this Tweet has been liked by the authenticating user.
+<p>Example:</p><pre linenumbers="off" class="brush: jscript">"favorited":true
+</pre></td></tr><tr><th>filter_level</th><td>String</td><td><p>Indicates the maximum value of the <a href="/streaming/overview/request-parameters#filter_level">filter_level</a> parameter which may be used and still stream this Tweet. So a value of <code>medium</code> will be streamed on <code>none</code>, <code>low</code>, and <code>medium</code> streams.</p><p>Example:</p><pre linenumbers="off" class="brush: jscript">"filter_level": "medium"
+</pre></td></tr><tr><th>geo</th><td>Object</td><td><em><strong>Deprecated</strong>. Nullable.</em> Use the &#8220;coordinates&#8221; field instead. <a href="http://groups.google.com/group/twitter-development-talk/browse_thread/thread/9e4ea75178174908">Discussion</a></td></tr><tr><th>id</th><td>Int64</td><td>The integer representation of the unique identifier for this Tweet. This number is greater than 53 bits and some programming languages may have difficulty/silent defects in interpreting it. Using a signed 64 bit integer for storing this identifier is safe. Use <code>id_str</code> for fetching the identifier to stay on the safe side. See <a href="/overview/api/twitter-ids-json-and-snowflake">Twitter IDs, JSON and Snowflake</a>.
+<p>Example:</p><pre linenumbers="off" class="brush: jscript">"id":114749583439036416
+</pre></td></tr><tr><th>id_str</th><td>String</td><td>The string representation of the unique identifier for this Tweet. Implementations should use this rather than the large integer in <code>id</code>. <a href="http://groups.google.com/group/twitter-development-talk/browse_thread/thread/6a16efa375532182/">Discussion</a>.
+<p>Example:</p><pre linenumbers="off" class="brush: jscript">"id_str":"114749583439036416"
+</pre></td></tr><tr><th>in_reply_to_screen_name</th><td>String</td><td><em>Nullable.</em> If the represented Tweet is a reply, this field will contain the screen name of the original Tweet&#8217;s author.
+<p>Example:</p><pre linenumbers="off" class="brush: jscript">"in_reply_to_screen_name":"twitterapi"
+</pre></td></tr><tr><th>in_reply_to_status_id</th><td>Int64</td><td><em>Nullable.</em> If the represented Tweet is a reply, this field will contain the integer representation of the original Tweet&#8217;s ID.
+<p>Example:</p><pre linenumbers="off" class="brush: jscript">"in_reply_to_status_id":114749583439036416
+</pre></td></tr><tr><th>in_reply_to_status_id_str</th><td>String</td><td><em>Nullable.</em> If the represented Tweet is a reply, this field will contain the string representation of the original Tweet&#8217;s ID.
+<p>Example:</p><pre linenumbers="off" class="brush: jscript">"in_reply_to_status_id_str":"114749583439036416"
+</pre></td></tr><tr><th>in_reply_to_user_id</th><td>Int64</td><td><em>Nullable.</em> If the represented Tweet is a reply, this field will contain the integer representation of the original Tweet&#8217;s author ID. This will not necessarily always be the user directly mentioned in the Tweet.
+<p>Example:</p><pre linenumbers="off" class="brush: jscript">"in_reply_to_user_id":819797
+</pre></td></tr><tr><th>in_reply_to_user_id_str</th><td>String</td><td><em>Nullable.</em> If the represented Tweet is a reply, this field will contain the string representation of the original Tweet&#8217;s author ID. This will not necessarily always be the user directly mentioned in the Tweet.
+<p>Example:</p><pre linenumbers="off" class="brush: jscript">"in_reply_to_user_id_str":"819797"
+</pre></td></tr><tr><th>lang</th><td>String</td><td><em>Nullable.</em> When present, indicates a <a href="http://tools.ietf.org/html/bcp47">BCP 47</a> language identifier corresponding to the machine-detected language of the Tweet text, or &#8220;<code>und</code>&#8221; if no language could be detected.
+<p>Example:</p><pre linenumbers="off" class="brush: jscript">"lang": "en"
+</pre></td></tr><tr><th>place</th><td><a href="/overview/api/places">Places</a></td><td><em>Nullable.</em> When present, indicates that the tweet is associated (but not necessarily originating from) a <a href="/overview/api/places">Place</a>.
+<p>Example:</p><pre linenumbers="off" class="brush: jscript">"place":
+{
+    "attributes":{},
+     "bounding_box":
+    {
+        "coordinates":
+        [[
+                [-77.119759,38.791645],
+                [-76.909393,38.791645],
+                [-76.909393,38.995548],
+                [-77.119759,38.995548]
+        ]],
+        "type":"Polygon"
+    },
+     "country":"United States",
+     "country_code":"US",
+     "full_name":"Washington, DC",
+     "id":"01fbe706f872cb32",
+     "name":"Washington",
+     "place_type":"city",
+     "url": "http://api.twitter.com/1/geo/id/01fbe706f872cb32.json"
+}
+</pre></td></tr><tr><th>possibly_sensitive</th><td>Boolean</td><td><em>Nullable.</em> This field only surfaces when a tweet contains a link. The meaning of the field doesn&#8217;t pertain to the tweet content itself, but instead it is an indicator that the URL contained in the tweet may contain content or media identified as sensitive content.
+<p>Example:</p><pre linenumbers="off" class="brush: jscript">"possibly_sensitive":true
+</pre></td></tr><tr><th>quoted_status_id</th><td>Int64</td><td>This field only surfaces when the Tweet is a quote Tweet. This field contains the integer value Tweet ID of the quoted Tweet.
+<p>Example:</p><pre linenumbers="off" class="brush: jscript">"quoted_status_id":114749583439036416
+</pre></td></tr><tr><th>quoted_status_id_str</th><td>String</td><td>This field only surfaces when the Tweet is a quote Tweet. This is the string representation Tweet ID of the quoted Tweet.
+<p>Example:</p><pre linenumbers="off" class="brush: jscript">"quoted_status_id_str":"114749583439036416"
+</pre></td></tr><tr><th>quoted_status</th><td><a href="/overview/api/tweets">Tweet</a></td><td>This field only surfaces when the Tweet is a quote Tweet. This attribute contains the Tweet object of the original Tweet that was quoted.</td></tr><tr><th>scopes</th><td>Object</td><td>A set of key-value pairs indicating the intended contextual delivery of the containing Tweet. Currently used by Twitter&#8217;s Promoted Products.
+<p>Example:</p><pre linenumbers="off" class="brush: jscript">"scopes":{"followers":false}
+</pre></td></tr><tr><th>retweet_count</th><td>Int</td><td>Number of times this Tweet has been retweeted. This field is no longer capped at 99 and will <strong>not</strong> turn into a String for &#8220;100+&#8221;
+<p>Example:</p><pre linenumbers="off" class="brush: jscript">"retweet_count":1585
+</pre></td></tr><tr><th>retweeted</th><td>Boolean</td><td><em>Perspectival</em>. Indicates whether this Tweet has been retweeted by the authenticating user.
+<p>Example:</p><pre linenumbers="off" class="brush: jscript">"retweeted":false
+</pre></td></tr><tr><th>retweeted_status</th><td><a href="/overview/api/tweets">Tweet</a></td><td>Users can amplify the broadcast of tweets authored by other users by <a href="/rest/reference/post/statuses/retweet/%3Aid">retweeting</a>. Retweets can be distinguished from typical Tweets by the existence of a <code>retweeted_status</code> attribute. This attribute contains a representation of the <em>original</em> Tweet that was retweeted. Note that retweets of retweets do not show representations of the intermediary retweet, but only the original tweet. (Users can also <a href="/rest/reference/post/statuses/destroy/%3Aid">unretweet</a> a retweet they created by deleting their retweet.)</td></tr><tr><th>source</th><td>String</td><td>Utility used to post the Tweet, as an HTML-formatted string. Tweets from the Twitter website have a source value of <code>web</code>.
+<p>Example:</p><pre linenumbers="off" class="brush: jscript">"source":"\u003Ca href=\"http:\/\/itunes.apple.com\/us\/app\/twitter\/id409789998?mt=12\" rel=\"nofollow\"\u003ETwitter for Mac\u003C\/a\u003E"
+          
+</pre></td></tr><tr><th>text</th><td>String</td><td>The actual UTF-8 text of the status update. See <a href="https://github.com/twitter/twitter-text/blob/master/rb/lib/twitter-text/regex.rb">twitter-text</a> for details on what is currently considered valid characters.
+<p>Example:</p><pre linenumbers="off" class="brush: jscript">"text":"Tweet Button, Follow Button, and Web Intents javascript now support SSL http:\/\/t.co\/9fbA0oYy ^TS"
+</pre></td></tr><tr><th>truncated</th><td>Boolean</td><td>Indicates whether the value of the <code>text</code> parameter was truncated, for example, as a result of a retweet exceeding the 140 character Tweet length. Truncated text will end in ellipsis, like this <code>...</code> Since Twitter now rejects long Tweets vs truncating them, the large majority of Tweets will have this set to <code>false</code>.<br /> Note that while native retweets may have their toplevel <code>text</code> property shortened, the original text will be available under the <code>retweeted_status</code> object and the <code>truncated</code> parameter will be set to the value of the original status (in most cases, <code>false</code>).
+<p>Example:</p><pre linenumbers="off" class="brush: jscript">"truncated":true
+</pre></td></tr><tr><th>user</th><td><a href="/overview/api/users">Users</a></td><td>The user who posted this Tweet. Perspectival attributes embedded within this object are unreliable. See <a href="/docs/faq/basics/why-are-embedded-objects-stale-or-inaccurate">Why are embedded objects stale or inaccurate?</a>.
+<p>Example:</p><pre linenumbers="off" class="brush: jscript">"user":{"statuses_count":3080, "favourites_count":22, "protected":false, "profile_text_color":"437792", "profile_image_url":"...", "name":"Twitter API", "profile_sidebar_fill_color":"a9d9f1", "listed_count":9252, "following":true, "profile_background_tile":false, "utc_offset":-28800, "description":"The Real Twitter API. I tweet about API changes, service issues and happily answer questions about Twitter and our API. Don't get an answer? It's on my website.", "location":"San Francisco, CA", "contributors_enabled":true, "verified":true, "profile_link_color":"0094C2", "followers_count":665829, "url":"http:\/\/dev.twitter.com", "default_profile":false, "profile_sidebar_border_color":"0094C2", "screen_name":"twitterapi", "default_profile_image":false, "notifications":false, "display_url":null, "show_all_inline_media":false, "geo_enabled":true, "profile_use_background_image":true, "friends_count":32, "id_str":"6253282", "entities":{"hashtags":[], "urls":[], "user_mentions":[]}, "expanded_url":null, "is_translator":false, "lang":"en", "time_zone":"Pacific Time (US &amp; Canada)", "created_at":"Wed May 23 06:01:13 +0000 2007", "profile_background_color":"e8f2f7", "id":6253282, "follow_request_sent":false, "profile_background_image_url_https":"...", "profile_background_image_url":"...", "profile_image_url_https":"..."}
+</pre></td></tr><tr><th>withheld_copyright</th><td>Boolean</td><td>When present and set to &#8220;true&#8221;, it indicates that this piece of content has been withheld due to a <a href="http://en.wikipedia.org/wiki/Digital_Millennium_Copyright_Act">DMCA complaint</a>.
+<p>Example:</p><pre linenumbers="off" class="brush: jscript">"withheld_copyright": true
+</pre></td></tr><tr><th>withheld_in_countries</th><td>Array of String</td><td>When present, indicates a list of uppercase <a href="http://en.wikipedia.org/wiki/ISO_3166-1_alpha-2">two-letter country codes</a> this content is withheld from. Twitter supports the following non-country values for this field:
+<p></p><ul><ul><li>&#8220;XX&#8221; - Content is withheld in all countries</li><li>&#8220;XY&#8221; - Content is withheld due to a DMCA request.</li><ul></ul></ul></ul><p>Example:</p><pre linenumbers="off" class="brush: jscript">"withheld_in_countries": ["GR", "HK", "MY"]
+</pre></td></tr><tr><th>withheld_scope</th><td>String</td><td><p>When present, indicates whether the content being withheld is the &#8220;status&#8221; or a &#8220;user.&#8221;</p><p><span>Example:</span></p><pre linenumbers="off" class="brush: jscript">"withheld_scope": "status"
+</pre></td></tr></tbody></table><h3 id="obj-contributors">Contributors</h3><p>If there are no contributors for a status, then there will be an empty or</p><pre class="brush: jscript">"contributors" : {}</pre><p>. This field will only be populated if the user has contributors enabled on his or her account — this is a beta feature that is not yet generally available to all.</p><table class="platform-object"><thead><tr><th>Field</th><th>Type</th><th>Description</th></tr></thead><tbody><tr><th>id</th><td>Int64</td><td>The integer representation of the ID of the user who contributed to this Tweet.
+<p>Example:</p><pre linenumbers="off" class="brush: jscript">"id":819797
+</pre></td></tr><tr><th>id_str</th><td>String</td><td>The string representation of the ID of the user who contributed to this Tweet.
+<p>Example:</p><pre linenumbers="off" class="brush: jscript">"id_str":"819797"
+</pre></td></tr><tr><th>screen_name</th><td>String</td><td>The screen name of the user who contributed to this Tweet.
+<p>Example:</p><pre linenumbers="off" class="brush: jscript">"screen_name":"episod"
+</pre></td></tr></tbody></table><h3 id="obj-coordinates">Coordinates</h3><table class="platform-object"><thead><tr><th>Field</th><th>Type</th><th>Description</th></tr></thead><tbody><tr><th>coordinates</th><td>Collection of Float</td><td>The longitude and latitude of the Tweet&#8217;s location, as an collection in the form of [longitude, latitude].
+<p>Example:</p><pre linenumbers="off" class="brush: jscript">"coordinates":[-97.51087576,35.46500176]
+</pre></td></tr><tr><th>type</th><td>String</td><td>The type of data encoded in the coordinates property. This will be &#8220;Point&#8221; for Tweet coordinates fields.
+<p>Example:</p><pre linenumbers="off" class="brush: jscript">"type":"Point"
+</pre></td></tr></tbody></table></div></div></div></div></div></div></div></article></div></div></div></section><footer class="Footer  is-narrow Footer--secondary"><div class="Footer-wrap"><div class="region region-footer-sub"><div class="SystemBlock" ><div class="Prefooter Grid"><div class="Prefooter-links Grid-cell u-size4of6 u-sm-sizeFull u-md-sizeFull"><div class="Prefooter-links-column Grid-cell u-size1of6 u-sm-size1of3"><div class="Prefooter-links-column-title">Solutions</div><ul class="Prefooter-links-column-sublinks"><li class="Prefooter-links-column-sublinks-item"><a href="/solutions/customer-service">Customer Service</a></li><li class="Prefooter-links-column-sublinks-item"><a href="/solutions/best-apps">Build Great Apps</a></li><li class="Prefooter-links-column-sublinks-item"><a href="/solutions/tell-great-stories">Tell Great Stories</a></li></ul></div><div class="Prefooter-links-column Grid-cell u-size1of6 u-sm-size1of3"><div class="Prefooter-links-column-title">Fabric</div><ul class="Prefooter-links-column-sublinks"><li class="Prefooter-links-column-sublinks-item"><a href="https://dev.twitter.com/products/digits">Digits</a></li><li class="Prefooter-links-column-sublinks-item"><a href="https://dev.twitter.com/products/signin">Sign in with Twitter</a></li><li class="Prefooter-links-column-sublinks-item"><a href="https://dev.twitter.com/products/native-social">Twitter Social</a></li><li class="Prefooter-links-column-sublinks-item"><a href="https://dev.twitter.com/products/crashlytics">Crashlytics</a></li><li class="Prefooter-links-column-sublinks-item"><a href="https://dev.twitter.com/products/answers">Answers by Crashlytics</a></li><li class="Prefooter-links-column-sublinks-item"><a href="https://dev.twitter.com/products/beta">Beta by Crashlytics</a></li><li class="Prefooter-links-column-sublinks-item"><a href="https://dev.twitter.com/products/mopub">MoPub</a></li></ul></div><div class="Prefooter-links-column Grid-cell u-size1of6 u-sm-size1of3"><div class="Prefooter-links-column-title">Data &amp; Web</div><ul class="Prefooter-links-column-sublinks"><li class="Prefooter-links-column-sublinks-item"><a href="http://gnip.com">Gnip</a></li><li class="Prefooter-links-column-sublinks-item"><a href="https://dev.twitter.com/rest/public">REST APIs</a></li><li class="Prefooter-links-column-sublinks-item"><a href="https://dev.twitter.com/streaming/overview">Streaming APIs</a></li><li class="Prefooter-links-column-sublinks-item"><a href="https://dev.twitter.com/products/web">Twitter for Websites</a></li></ul></div><div class="Prefooter-links-column Grid-cell u-size1of6 u-sm-size1of3"><div class="Prefooter-links-column-title">Resources</div><ul class="Prefooter-links-column-sublinks"><li class="Prefooter-links-column-sublinks-item"><a href="/overview/documentation">Documentation</a></li><li class="Prefooter-links-column-sublinks-item"><a href="https://twittercommunity.com">Forums</a></li><li class="Prefooter-links-column-sublinks-item"><a href="https://blog.twitter.com/developer">Blog</a></li><li class="Prefooter-links-column-sublinks-item"><a href="https://dev.twitter.com/overview/case-studies">Case Studies</a></li><li class="Prefooter-links-column-sublinks-item"><a href="http://dev.twitter.com/overview/terms">API Terms</a></li><li class="Prefooter-links-column-sublinks-item"><a href="https://support.twitter.com/forms/platform">Policy Support</a></li></ul></div><div class="Prefooter-links-column Grid-cell u-size1of6 u-sm-size1of3"><div class="Prefooter-links-column-title">Programs</div><ul class="Prefooter-links-column-sublinks"><li class="Prefooter-links-column-sublinks-item"><a href="https://dev.twitter.com/overview/general/official-partner-program">Official Partner</a></li><li class="Prefooter-links-column-sublinks-item"><a href="/overview/events">Events</a></li><li class="Prefooter-links-column-sublinks-item"><a href="/flight/2014">Flight 2014</a></li></ul></div><div class="Prefooter-links-column Grid-cell u-size1of6 u-sm-size1of3"><div class="Prefooter-links-column-title">Tools</div><ul class="Prefooter-links-column-sublinks"><li class="Prefooter-links-column-sublinks-item"><a href="http://dev.twitter.com/overview/status">API Status</a></li><li class="Prefooter-links-column-sublinks-item"><a href="http://dev.twitter.com/rest/tools/console">API Console</a></li><li class="Prefooter-links-column-sublinks-item"><a href="https://apps.twitter.com">Manage Your Apps</a></li><li class="Prefooter-links-column-sublinks-item"><a href="https://cards-dev.twitter.com/validator">Cards Validator</a></li></ul></div></div><div class="Prefooter-info Grid-cell u-size2of6 u-sm-sizeFull u-md-sizeFull"><a class="Prefooter-info-subscribeLink" href="/overview/newsletter-signup">
+      Subscribe to Our Newsletter    </a><div class="Prefooter-info-copyright"><p>Copyright © 2016 Twitter, Inc.</p><p class="Prefooter-info-copyright-reserved">All Rights Reserved</p></div></div></div></div></div></div></footer><footer class="Footer Footer--global">
+  <nav class="Footer-navigation">
+    <ul class="Footer-navigation-items">
+              <li class="Footer-navigation-item">
+          <a href="https://about.twitter.com" class="FooterItem">About</a>
+        </li>
+              <li class="Footer-navigation-item">
+          <a href="https://about.twitter.com/company" class="FooterItem">Company</a>
+        </li>
+              <li class="Footer-navigation-item">
+          <a href="https://blog.twitter.com" class="FooterItem">Blog</a>
+        </li>
+              <li class="Footer-navigation-item">
+          <a href="https://support.twitter.com" class="FooterItem">Help</a>
+        </li>
+              <li class="Footer-navigation-item">
+          <a href="http://status.twitter.com" class="FooterItem">Status</a>
+        </li>
+              <li class="Footer-navigation-item">
+          <a href="https://about.twitter.com/careers" class="FooterItem">Jobs</a>
+        </li>
+              <li class="Footer-navigation-item">
+          <a href="https://twitter.com/tos" class="FooterItem">Terms</a>
+        </li>
+              <li class="Footer-navigation-item">
+          <a href="https://twitter.com/privacy" class="FooterItem">Privacy</a>
+        </li>
+              <li class="Footer-navigation-item">
+          <a href="https://support.twitter.com/articles/20170514" class="FooterItem">Cookies</a>
+        </li>
+              <li class="Footer-navigation-item">
+          <a href="https://support.twitter.com/articles/20170451" class="FooterItem">Ads info</a>
+        </li>
+              <li class="Footer-navigation-item">
+          <a href="https://about.twitter.com/company/brand-assets" class="FooterItem">Brand</a>
+        </li>
+              <li class="Footer-navigation-item">
+          <a href="https://ads.twitter.com/start?ref=gl-tw-tw-twitter-advertise" class="FooterItem">Advertise</a>
+        </li>
+              <li class="Footer-navigation-item">
+          <a href="https://business.twitter.com" class="FooterItem">Businesses</a>
+        </li>
+              <li class="Footer-navigation-item">
+          <a href="https://dev.twitter.com" class="FooterItem">Developers</a>
+        </li>
+          </ul>
+  </nav>
+  <div class="Footer-copyright">
+    &copy; 2016 Twitter, Inc.
+  </div>
+</footer>
+</div>
+
+    <script type="text/javascript" src="https://g.twimg.com/js/3f71480/js_Rk5YIkK6m2gKTGH-GrMu0pM_PlMKXnI0ktQUgXw1XgA.js"></script>
+<script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script>
+<script type="text/javascript" src="https://g.twimg.com/js/3f71480/js_WRH7WYq-FQCJT26vr-LZAlWu_t37jPSQ1Sws4gdMfko.js"></script>
+<script type="text/javascript" src="https://platform.twitter.com/oct.js"></script>
+<script type="text/javascript" src="https://g.twimg.com/js/3f71480/js_6yE-_uKeO7bidfCOj5hFbBaaInw0QU2U0ekyhBlHU9k.js"></script>
+
+  </body>
+</html>
